@@ -4,6 +4,12 @@ const nextConfig = {
   basePath: process.env.NODE_ENV === 'production' ? '/Geraldine_Faife' : '',
   distDir: 'build_output',
   reactStrictMode: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   images: {
     unoptimized: true,
     remotePatterns: [

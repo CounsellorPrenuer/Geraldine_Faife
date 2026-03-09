@@ -1,0 +1,7 @@
+# Ignore backend and sanity from root eslint
+backend/
+sanity/
+node_modules/
+.next/
+out/
+build_output/

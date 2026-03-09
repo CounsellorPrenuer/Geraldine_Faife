@@ -10,7 +10,7 @@ const COUPONS: Record<string, { type: 'percentage' | 'flat', value: number }> = 
 	'GP500': { type: 'flat', value: 500 },
 };
 
-const handleCors = (request: Request) => {
+const handleCors = (_request: Request) => {
 	const headers = new Headers();
 	headers.set('Access-Control-Allow-Origin', '*');
 	headers.set('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');

@@ -1,0 +1,44 @@
+# Git ignore file
+
+# Next.js
+.next/
+out/
+build/
+build_output/
+.vercel/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Sanity - exclude from git
+sanity/
+sanity-schemas-oversimplify/
+
+# Oversimplified versions
+app-oversimplify/
+components-oversimplify/
+lib-oversimplify/
+frontend/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*

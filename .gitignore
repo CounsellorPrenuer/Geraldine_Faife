@@ -20,6 +20,7 @@ yarn.lock
 # Sanity - exclude from git
 sanity/
 sanity-schemas-oversimplify/
+backend/
 
 # Oversimplified versions
 app-oversimplify/

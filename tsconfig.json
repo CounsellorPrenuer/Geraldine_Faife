@@ -38,16 +38,13 @@
     ]
   },
   "include": [
-    "app",
-    "components",
-    "lib",
-    "scripts",
-    "next-env.d.ts",
-    ".next/types/**/*.ts"
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "build_output/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
-    "sanity/**",
-    "backend"
+    "sanity/**"
   ]
 }

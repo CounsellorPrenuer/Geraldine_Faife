@@ -19,7 +19,7 @@ const handleCors = (_request: Request) => {
 };
 
 export default {
-	async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
+	async fetch(request: Request, env: Env, _ctx: any): Promise<Response> {
 		if (request.method === 'OPTIONS') {
 			return new Response(null, { headers: handleCors(request) });
 		}

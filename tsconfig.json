@@ -38,10 +38,12 @@
     ]
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    "build_output/types/**/*.ts"
+    "app",
+    "components",
+    "lib",
+    "scripts",
+    "next-env.d.ts",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",
